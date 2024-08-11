@@ -1,0 +1,79 @@
+.tarjeta-clima {
+    background-image:  linear-gradient(45deg,#2f4680,#500ae4);
+    place-self: center;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+.Barra-busqueda{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.Busqueda {
+    color: #626262;
+    background: #ebfffc;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    font-size: 18px;
+
+
+}
+
+.Barra-busqueda img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+}
+
+.Icono-clima {
+    width: 150px;
+    margin: 30px ,0;
+}
+
+.Temperatura {
+    color:#fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.Ciudad {
+    color: #fff;
+    font-size: 40px;
+}
+
+.Clima-ciudad{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    gap: 25px;
+}
+
+.Clima-ciudad .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.Clima-ciudad .col span {
+    display: block;
+    font-size: 16px;
+}
+
+.Clima-ciudad .col img {
+    width: 26px;
+    margin-top: 10px;
+}
